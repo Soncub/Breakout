@@ -39,7 +39,7 @@ public class Ball : MonoBehaviour
             }
             else
             {
-                transform.position = Vector3.zero;
+                transform.position = new Vector3(0,-5.5f,0);
                 rb.velocity = Vector2.down * 15;
                 paddle.transform.position = new Vector3(0, -8, 0);
                 lives--;
